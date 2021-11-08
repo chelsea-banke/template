@@ -1,0 +1,240 @@
+body {
+    background-color: rgb(66, 43, 0);
+        border-bottom: 1px solid black;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    margin-left: 13px;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+header:not(img#logo){
+    -webkit-box-reflect: below 0px linear-gradient(0deg, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+#menu ul a li {
+    display: inline;
+}
+
+#menu ul {
+    margin-top: 30px;
+    height: 100%;
+    margin-left: -39px;
+}
+
+#menu ul a:hover li:not(#active, #register) {
+    color: white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    background-color: rgb(201, 136, 16);
+}
+
+#menu ul a li:not(#active) {
+    background-color: rgb(231, 173, 66);
+}
+
+#active {
+    background-color: rgb(86, 236, 86);
+}
+
+#menu ul a li {
+    opacity: 0.8;
+    padding: 14px 16px;
+    text-align: center;
+    display: inline-block;
+}
+
+#menu ul a {
+    color: #000;
+}
+
+#menu ul a li#register {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    position: fixed;
+    z-index: 1;
+    padding-right: 5px;
+    right: 0px;
+    float: right;
+    animation-name: test;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    box-shadow: 0 0px 8px 0 white, 0 6px 5px 0 white;
+}
+
+@keyframes test{
+    0%{box-shadow: 0 0px 8px 0 white, 0 6px 5px 0 white;}
+    25%{box-shadow: 0 0px 8px 0 rgb(0, 0, 0), 0 6px 5px 0 rgb(0, 0, 0);}
+    75%{box-shadow: 0 0px 8px 0 rgb(0, 0, 0), 0 6px 5px 0 rgb(0, 0, 0);}
+    100%{box-shadow: 0 0px 8px 0 white, 0 6px 5px 0 white;}
+}
+
+#menu ul a:hover li#register {
+    font-weight: bold;
+    color: white;
+    background-color: rgb(40, 161, 40);
+    border-left: 1px solid black;
+}
+
+#ledge {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#redge {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#back {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+}
+
+#content {
+    position: absolute;
+    box-shadow: 0 0px 8px 0 rgb(0, 0, 0), 0 6px 5px 0 rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 40%;
+    color: white;
+    opacity: 0.7;
+    margin-top: -600px;
+}
+
+#entry {
+    position: absolute;
+    border-radius: 5px;
+    width: 50%;
+    background-color: white;
+    opacity: 0.7;
+    margin-top: -600px;
+    right: 10%;
+    box-shadow: 0 0px 8px 0 rgb(0, 0, 0), 0 6px 5px 0 rgb(0, 0, 0);
+}
+
+form {
+    margin-left: 25px;
+}
+
+form h3 {
+    text-align: center;
+    color: green;
+}
+
+form h4 {
+    margin-left: 70px
+}
+
+ul li {
+    display: inline;
+}
+
+ul li h3 {
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.forminfo {
+    border-bottom: 1px solid black;
+}
+
+#submit {
+    color: white;
+    float: right;
+    margin-right: 30px;
+    margin-bottom: -70px;
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    border:2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#submit:hover {
+    color: black;
+    background-color: white;
+    border:2px solid black;
+    border-bottom:2px solid white;
+}
+
+p {
+    margin-top: -8px;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a p {
+    color: rgb(85, 235, 85);
+    text-decoration: none;
+}
+
+a:hover p {
+    color: black;
+}
+
+#platforms{
+    width: 100%;
+}
+
+#platforms table tr td img {
+    height: 25px;
+    width: 25px;
+}
+#platforms table tr td a:hover img {
+    border-bottom: 2px solid green;
+}
+
+#platforms p {
+    margin-left: -5px;
+    text-align: left;
+}
+
+img#logo {
+    z-index: 1;
+    height: 30px;
+    width: 30px;
+}
+
+@media screen and (max-width: 900px) {
+    #content {
+        box-shadow: 0 0px 8px 0 rgb(0, 0, 0), 0 6px 5px 0 rgb(0, 0, 0);
+        border-radius: 5px;
+        width: 100%;
+        color: white;
+        opacity: 0.7;
+        margin-top: -200px;
+        float: left;
+        font-size: small;
+    }
+    
+    #entry {
+        display: none;
+        border-radius: 5px;
+        width: 50%;
+        background-color: white;
+        opacity: 0.7;
+        margin-top: -500px;
+        margin-right: 150px;
+        float: right;
+        box-shadow: 0 0px 8px 0 rgb(0, 0, 0), 0 6px 5px 0 rgb(0, 0, 0);
+    }
+    #back {
+        position: relative;
+        z-index: -1;
+        width: 100%;
+    }
+}

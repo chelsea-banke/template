@@ -1,0 +1,397 @@
+#head {
+    background-color: rgb(110, 80, 41);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: -15px;
+}
+
+#head h1 {
+    text-decoration: rgb(23, 228, 23) overline;
+    letter-spacing: 5px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 100px;
+    position: relative;
+    font-size: 300%;
+    text-align: center;
+}
+
+#head ul {
+    text-align: center;
+    float: right;
+    margin-right: -5px;
+    margin-top: -178px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a li.others {
+    color: #000;
+    font-size: large;
+    /* height: 1000px; */
+    background-color: rgb(86, 236, 86);
+    margin-right: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 27px;
+    padding-right: 28px;
+    display: inline;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border: 1px solid white;
+}
+
+a:hover li.others {
+    font-family: sans-serif;
+    color: whitesmoke;
+    background-color: rgb(0, 173, 0);
+    border-radius: 5px;
+}
+
+div#block1 img {
+    height: auto;
+    width: 100%;
+}
+
+#block1 {
+    /* display: flex; */
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+div#block1 h1 {
+    color: black;
+    font-family:fantasy;
+    font-size: 500%;
+    position: absolute;
+    top: 3%;
+    right: 60%;
+}
+
+div#block1 h1 sub{
+    position: relative;
+    top: -90px;
+    font-size: 15%;
+}
+
+div#block1 h2 {
+    font-size: 25px;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    text-decoration: underline;
+}
+
+div#block1 h2 a {
+    color: green;
+}
+
+div#block1 h2 a:hover {
+    color: black;
+}
+
+body{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(63, 75, 66);
+}
+
+input {
+    width: 100%;
+    height: auto;
+}
+
+div#block1 h2 a {
+    color: black;
+}
+
+td {
+    display: inline-flexbox;
+}
+
+footer {
+    display: inline-block;
+}
+
+p {
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+table {
+    border-top: 1px solid rgb(247, 240, 240);
+    color: white;
+    /* background-color: rgb(223, 200, 173); */
+    width: 100%;
+}
+
+#offers {
+    width: 26.25%;
+    text-align: left;
+}
+#partners {
+    text-align: center;
+}
+#locations{
+    padding-right: 5%;
+    text-align: right;
+}
+
+.listitle {
+    color: rgb(116, 255, 116);
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+
+table tr td ul {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+table tr td a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+table tr td a:hover {
+    color: green;
+}
+
+#menu{
+    box-shadow: 0 0px 8px 0 rgb(0, 0, 0);
+}
+
+#menu ul a:hover li:not(#active, #register) {
+    color: white;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background-color: rgb(224, 157, 33);
+}
+
+#menu ul a li {
+    padding: 14px 16px;
+    text-align: center;
+    display: inline-block;
+}
+
+#menu ul a {
+    color: #000;
+}
+
+#menu ul a li#register {
+    background-color: rgb(86, 236, 86);
+    padding-right: 3%;
+    float: right;
+}
+
+#menu ul a:hover li#register {
+    font-weight: bold;
+    color: white;
+    background-color: rgb(40, 161, 40);
+    border-left: 1px solid black;
+}
+
+#menu {
+    background-color: wheat;
+}
+
+#menu ul a li {
+    height: 100%;
+}
+
+#active {
+    background-color: rgb(224, 157, 33);
+}
+
+#block1 {
+    margin-top: -15px;
+}
+
+img#top {
+    z-index: 1;
+    height: 40px;
+    width: 40px;
+}
+
+img#foot {
+    opacity: 0.5;
+    position: absolute;
+    z-index: 1;
+    margin-top: 0px;
+    margin-left: -575px;
+    height: 15%;
+    width: 10%;
+}
+
+#platforms {
+    border-top: 1px solid black;
+    background-color:  rgb(223, 200, 173);
+    width: 100%;
+}
+
+#platforms ul li {
+    display: inline;
+}
+
+#platforms ul a li {
+    margin-left: 30px;
+}
+
+#platforms ul a:hover li {
+    border-bottom: 2px solid green;
+}
+
+img.plat {
+    height: 25px;
+    width: 25px;
+}
+
+#dropdown {
+    display: none;
+}
+a#log {
+    display: none;
+}
+@media screen and (max-width: 1200px){
+    div#block1 h1 {
+        font-size: 300%;
+    }
+    sub {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px){
+    div#block1 h1 {
+        font-size: 150%;
+    }
+    div#block1 h2 {
+        font-size: 20px;
+        position: absolute;
+    }
+    #menu ul a li {
+        display: none;
+    }
+    #menu ul a li#register {
+        position: absolute;
+        right: 0%;
+        z-index: 1;
+        height: 10px;
+        border-radius: 5px;
+        width: 50px;
+        overflow:hidden;
+        border: 1px solid black;
+    }
+    body {
+        border: none;
+    }
+    a li.others {
+        font-size: small;
+        padding-left: 20px;
+        padding-right: 21px;
+        background-color: rgb(255, 255, 255);
+    }
+    #dropdown ul li {
+        display: none;
+    }
+    #dropdown{
+        display: inline-block;
+        z-index: 1;
+        position: absolute;
+        padding: 3px;
+        padding-bottom: 0px;
+        background-color: rgb(218, 157, 45);
+        color: black;
+        top: 1%;
+        left: 1%;
+        border: 1px solid rgb(182, 175, 175);
+        border-top-right-radius: 5px;
+    }
+    #dropdown:hover {
+        border: 1px solid rgb(255, 255, 255);
+        cursor: pointer;
+    }
+    #dropdown:hover ul {
+        position: absolute;
+        top: 30%;
+        left: -40px;
+    }
+    #dropdown:hover ul a li {
+        color: black;
+        display: block;
+        padding: 5px;
+        padding-right: 30px;
+        padding-bottom: 2px;
+        background-color: rgb(179, 151, 99);
+        border-bottom: 1px solid white;
+        margin-top: 1px;
+    }
+    #dropdown:hover ul a:hover li:not(#active) {
+        color: rgb(0, 0, 0);
+        display: block;
+        padding: 5px;
+        padding-bottom: 2px;
+        background-color: rgb(218, 157, 45);
+        border-bottom: 2px solid green;
+        margin-top: 1px;
+        border-top-right-radius: 5px;
+    }
+    #dropdown:hover ul a li#active {
+        margin-top: 5px;
+        background-color: rgb(218, 157, 45);
+        border-bottom: 2px solid green;
+    }
+    #head h1 {
+        text-decoration: rgb(23, 228, 23) overline;
+        letter-spacing: 5px;
+        font-family: sans-serif;
+        color: white;
+        margin-top: 100px;
+        position: relative;
+        font-size: 300%;
+    }
+    table {
+        font-size: small;
+    }
+    #offers ul li {
+        list-style-type: disc;
+    }
+    sub {
+        display: none;
+    }
+    #ecogreen img {
+        display: none;
+    }
+    a#log {
+        font-size: small;
+        position: absolute;
+        z-index: 1;
+        display: inline;
+        right: 1.9%;
+        top: 29.9%;
+        background-color: white;
+        border-top-left-radius: 3px;
+        padding-left: 3px;
+        border-left: 1px solid grey;
+        border-top: 1px solid grey;
+    }
+    a:hover#log{
+        color: white;
+        background-color: black;
+        cursor: pointer;
+    }
+    div#block1 h2 a {
+        font-size: 15px;
+    }
+    div#block1 h2 a:hover {
+        color: green;
+    }
+}

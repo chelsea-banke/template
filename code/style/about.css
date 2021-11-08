@@ -1,0 +1,371 @@
+body{
+    position: relative;
+    /* height: 1000px; */
+    /* background-image: rgb(15, 31, 36); */
+    background-image: linear-gradient(0deg,
+    rgb(71, 59, 44),
+     rgb(15, 31, 36),
+     rgb(15, 31, 36), 
+     rgb(15, 31, 36),
+     rgb(15, 31, 36),
+     rgb(15, 31, 36),
+     rgb(15, 31, 36),
+     rgb(71, 59, 44));
+}
+
+header {
+    height: 250px;
+    text-align: center;
+    letter-spacing: 16px;
+    font-size: x-large ;
+    font-family: sans-serif;
+    padding-top: 6px;
+    border-bottom: 1px solid black;
+}
+
+#block1 {
+    float: left;
+    margin-top: 1000px;
+    height: 100%;
+}
+
+div#block1 #content {
+    /* box-shadow: 0 0px 8px 0 rgb(255, 255, 255), 0 6px 5px 0 rgb(255, 255, 255); */
+    width: 500px;
+    float: left;
+    text-align: left;
+    /* border-radius: 70px; */
+    border-top-left-radius: 0px;
+    /* border-top-right-radius: 0px; */
+    font-size: large;
+    width: 75%;
+    /* background-color: white; */
+    color: white;
+    opacity: 0.8;
+    height: 1000%;
+    margin: 140px;
+    margin-right: auto;
+    margin-top: -1000px;
+    height: 100%;
+    border-left: 1px solid white;
+    /* border-right: 1px solid white; */
+}
+
+#content ul a {
+    color: black;
+}
+
+#content ul a:hover {
+    color: green;
+}
+
+h1 {
+    color: white;
+    z-index: 1;
+    opacity: 1;
+    margin-top: -225px;
+    text-decoration: rgb(16, 212, 16) overline;
+}
+
+h2 {
+    margin-left: 40px;
+    /* text-align: left; */
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    margin: 10px;
+    /* text-align: left; */
+}
+
+a {
+    text-decoration: none;
+}
+
+a li {
+    list-style-type: none;
+}
+
+div#block1 div#content ul#actions a li {
+    color: white;
+    /* text-align: left; */
+    list-style-type: circle;
+}
+
+div#block1 div#content ul#actions a:hover li {
+    list-style-type: disc;
+}
+
+table {
+    font-family:serif;
+    border-top: 1px solid black;
+    background-color: bisque;
+    border-radius: 5px;
+    width: 65%;
+}
+
+#partners {
+    text-align: left;
+}
+#locations{
+    padding-right: 50px;
+    text-align: right;
+}
+
+.listitle {
+    list-style-type: none;
+    color: darkgreen;
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+
+table tr td a {
+    color: black;
+    text-decoration: none;
+}
+
+table tr td a:hover {
+    color: green;
+}
+
+#menu ul {
+    margin-top: 75px;
+    height: 100%;
+    margin-left: -30px;
+}
+
+#menu ul a:hover li:not(#active, #register) {
+    color: white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    background-color: rgb(201, 136, 16);
+}
+
+#menu ul a li:not(#active) {
+    background-color: rgb(231, 173, 66);
+}
+
+#active {
+    background-color: rgb(86, 236, 86);
+}
+
+#menu ul a li {
+    opacity: 0.8;
+    padding: 14px 16px;
+    text-align: center;
+    display: inline-block;
+}
+
+#menu ul a {
+    color: #000;
+}
+
+#menu ul a li#register {
+    box-shadow: 0 0px 8px 0 rgb(0, 0, 0), 0 6px 5px 0 rgb(0, 0, 0);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    position: fixed;
+    z-index: 1;
+    padding-right: 5px;
+    right: 0px;
+    float: right;
+}
+
+#menu ul a:hover li#register {
+    font-weight: bold;
+    color: white;
+    background-color: rgb(40, 161, 40);
+    border-left: 1px solid black;
+}
+
+img {
+    z-index: 1;
+    height: 40px;
+    width: 40px;
+}
+
+img#foot {
+    position: absolute;
+    z-index: 1;
+    margin-top: -60px;
+    margin-left: 55px;
+    height: 8%;
+    width: 10%;
+}
+
+img#birds {
+    width: 100%;
+    height: 150%;
+    z-index: -1;
+}
+
+#ledge {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#redge {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#topmenu {
+    position: fixed;
+    height: 35px;
+    border-radius: 5px;
+    opacity: 0.8;
+    top: 1%;
+    right: 0px;
+    /* background-color: rgb(231, 173, 66); */
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: large ;
+    font-family: sans-serif;
+    /* border-bottom: 2px solid black; */
+}
+
+#topmenu ul a li {
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 2px;
+    margin-bottom: 210%;
+    border-left: 1px solid black;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    font-size: small;
+    height: 15px;
+    width: 98px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#topmenu ul a:hover li {
+    border-bottom: 8px solid rgb(30, 151, 30);
+    color: rgb(255, 255, 255);
+}
+
+#platforms tr td a:hover {
+    border-bottom: 2px solid green;
+}
+
+#deco {
+    position: fixed;
+    width: 10px;
+    top: 50px;
+    right: 80px;
+}
+
+#deco hr {
+    border-bottom:2px solid oldlace;
+    height: 10px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+#deco hr:hover {
+    background-color: white;
+}
+
+#deco a {
+    text-decoration: none;
+}
+
+#platforms {
+    text-align: center;
+}
+
+#log {
+    display: none;
+}
+
+#dropdown {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    #deco hr {
+        display: none;
+    }
+    #log {
+        display: inline;
+        box-shadow: 0 0px 8px 0 rgb(0, 0, 0), 0 6px 5px 0 rgb(0, 0, 0);
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+        position: fixed;
+        z-index: -1;
+        padding-right: 5px;
+        padding-left: 5px;
+        right: 10px;
+        background-color: rgb(72, 230, 72);
+    }
+    a:hover#log {
+        color: white;
+        background-color: black;
+    }
+    #menu ul a li#register {
+        display: none;
+    }
+    div#block1 #content {
+        width: 500px;
+        float: left;
+        text-align: left;
+        border-top-left-radius: 0px;
+        font-size: large;
+        width: 75%;
+        color: white;
+        opacity: 0.8;
+        height: 1000%;
+        margin: 140px;
+        margin-left: 0px;
+        margin-top: -1000px;
+        height: 100%;
+        border-left: none;
+    }
+    #topmenu {
+        display: none;
+    }
+    #dropdown {
+        z-index: 1;
+        position: absolute;
+        display: inline-block;
+        top: 1.5%;
+        color: black;
+        right: 0px;
+        background-color: rgb(255, 255, 255);
+        border-bottom-left-radius: 5px;
+        padding-bottom: 0px;
+        letter-spacing: 3px;
+        font-size: small;
+        padding-left: 8px;
+    }
+    #dropdown ul li {
+        display: none;
+    }
+    #dropdown:hover ul {
+        margin-left: -8px;
+        background-color: rgb(221, 165, 61);
+    }
+    #dropdown:hover ul a li {
+        color: black;
+        display: block;
+        font-size: small;
+        letter-spacing: 1px;
+        margin-left: -10px;
+        margin-right: 20px;
+    }
+    #dropdown:hover ul a:hover li {
+        color: white;
+        display: block;
+        font-size: small;
+        letter-spacing: 1px;
+        margin-left: -10px;
+    }
+    table {
+        width: 120%;
+    }
+}
